@@ -29,11 +29,11 @@ $ sudo apt-get autoremove
 1. Use `$ sudo su -` to switch to the root user
 2. Create a new user grader for Udacity by using `$ sudo adduser grader`, and enter the password indicated by Udacity.
 3. Use `$ sudo nano /etc/sudoers.d/grader` to create and open file grader and put `grader ALL=(ALL) NOPASSWD:ALL` into the file, so that grader can use sudo comments.
-4. Open a new terminal on local, use`$ ssh-keygen -f ~/.ssh/udacity.rsa` to create key
-5. On the same local terminal, use `$ cat ~/.ssh/udacity.rsa.pub` to see the created key and copy it.
+4. Open a new terminal on local, use`$ ssh-keygen -f ~/.ssh/udacity.rsa` to create public key and private kay
+5. On the same local terminal, use `$ cat ~/.ssh/udacity.rsa.pub` to see the created public key and copy it.
 6. Back to the lightsail server terminal, use `$ mkdir /home/grader/.ssh` to create a .ssh folder.
-7. Use `$ cd /home/grader/.ssh` to cd into the .ssh file and use `$ touch .ssh/authorized_keys` to create a file to store the created key.
-8. Use `$ nano .ssh/authorized_keys` to paste the copied key into the file.
+7. Use `$ cd /home/grader/.ssh` to cd into the .ssh file and use `$ touch .ssh/authorized_keys` to create a file to store the created public key.
+8. Use `$ nano .ssh/authorized_keys` to paste the copied public key into the file.
 9. Use the following commands to change the permissions:
 ``` 
 $ sudo chmod 700 /home/grader/.ssh
