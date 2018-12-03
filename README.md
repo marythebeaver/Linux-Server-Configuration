@@ -151,5 +151,6 @@ $ exit
 12. Enter http://ip_address.xip.io in the browser, and now you can see the web app through it.
 
 # References:
-https://github.com/ddavignon/linux-server-configuration
-https://github.com/mulligan121/Udacity-Linux-Configuration
+- https://knowledge.udacity.com/?nanodegree=5d0abf4a-496f-11e8-b517-e31790f491a9&page=1
+- https://github.com/ddavignon/linux-server-configuration
+- https://github.com/mulligan121/Udacity-Linux-Configuration
