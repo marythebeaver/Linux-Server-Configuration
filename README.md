@@ -8,7 +8,7 @@ Using Amazon Lightsail to configure and deploy a Flask app to an Ubuntu server
 
 # Amazon Lightsail Set Up
 1. Register an AWS account and go to the Amazon Lightsail website
-2. Create your an instance with Linux/Unix, OS only, Ubuntu 16.04 LTS
+2. Create an instance with Linux/Unix, OS only, Ubuntu 16.04 LTS
 3. Wait for the instance to set up, and click "Account Page" at the bottom to download your private SSH key, so that you can ssh into the server through your local terminal.
 4. Click Networking and add TCP 123 and TCP 2200 into firewall to enable this two ports.
 
